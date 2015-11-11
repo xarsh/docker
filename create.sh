@@ -4,7 +4,7 @@ echo "Register mycert.cer file to Azure first."
 
 azure account list
 
-echo "Subscriotion ID: \c"
+echo "Subscription ID: \c"
 read subscription
 echo "Password: \c"
 read -s password
