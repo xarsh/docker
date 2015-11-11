@@ -17,6 +17,6 @@ docker-machine create -d azure \
 --azure-subscription-id="$subscription" \
 --azure-subscription-cert="mycert.pem" \
 --azure-location="Japan West" \
-xarsh-docker-machine-base
+xarsh-docker-machine-on-azure
 
 docker-machine env xarsh-docker-machine-base
